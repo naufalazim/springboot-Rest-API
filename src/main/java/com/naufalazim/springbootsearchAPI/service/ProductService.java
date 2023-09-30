@@ -8,4 +8,5 @@ public interface ProductService {
 
     List<Product> searchProducts(String query); //Search
     Product createdProduct(Product product);    //Created
+    List<Product> getAllProducts();   // Get All list
 }

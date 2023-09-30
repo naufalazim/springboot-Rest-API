@@ -31,5 +31,15 @@ public class ProductController {
         return productService.createdProduct(product);
     }
 
+    // Get product
+    @GetMapping("all")
+    public ResponseEntity<List<Product>> getAllProducts() {
+        List<Product> products = productService.getAllProducts();
+        return ResponseEntity.ok(products);
+    }
+
+    //Update Product
+
+
 
 }
