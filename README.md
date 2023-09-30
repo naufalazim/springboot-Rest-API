@@ -14,6 +14,13 @@ My learning journey develop applications with Spring Boot
 - Build with Java11 but compatible with Java17
 - Database with MySQL
 
+### Spring Stereotype Annotations
+@Component:
+- @ Service
+- @ Repository
+- @ Controller
+- @ Entity
+
 ## Setup
 Database: application.properties
 
@@ -31,3 +38,4 @@ Database: application.properties
     # (Optional) Hibernate settings for showing SQL queries in the console (for development/debugging)
     spring.jpa.show-sql=true
     spring.jpa.properties.hibernate.format_sql=true
+
