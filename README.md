@@ -17,7 +17,7 @@ Database: application.properties
 
    ```shell
    # MySQL database connection settings
-    spring.datasource.url=jdbc:mysql://localhost:3306/search_api
+    spring.datasource.url=jdbc:mysql://localhost:3306/{Your_database_name}
     spring.datasource.username=root
     spring.datasource.password=
     
