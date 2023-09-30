@@ -3,7 +3,10 @@ My learning journey develop applications with Spring Boot
 
 ## My Learning
 - Develop with SpringBoot
-- CRUD on API
+- Create
+- Edit
+- Delete
+- Get
 - Search Query
 - Connect with MySQL
 
@@ -12,7 +15,6 @@ My learning journey develop applications with Spring Boot
 - Database with MySQL
 
 ## Setup
-
 Database: application.properties
 
    ```shell
